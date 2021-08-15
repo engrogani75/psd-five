@@ -1,0 +1,200 @@
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+
+    .social_area{
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    .social_area .nav-link{
+        margin: 9px 3px 0px 3px;
+        padding: 5px;
+    }
+
+    .top_header img{
+        width: 165px;
+    }
+
+    .top_header form{
+        width: 100%;
+    }
+
+    .top_header .form-control {
+        width: 50%;
+        height: 15px;
+        padding: 2px 12px;
+        border: 0px;
+    }
+    .top_header button{
+        margin-bottom: 5px;
+    }
+    .top_header form{
+        margin-top: 4px;
+    }
+
+    .top_header form button{
+        width: 70px;
+    }
+
+    .mini_nav{
+        width: 100%;
+        text-align: center;
+    }
+
+    .main_menu {
+        margin-top: 5px;
+    }
+
+    .main_menu .nav-link{
+        text-align: center;
+    }
+
+    .main_menu .nav-link:hover:before{
+        width: 25%;
+      
+    }
+
+    .carousel {
+        margin: 0px;
+    }
+
+    .carousel_content {
+        position: relative;
+        bottom: -10px;
+        width: 100%;
+        right: 0px;
+    }
+
+    .carousel_content h2{
+        font-size: 22px;
+        color: #383838;
+        margin-left: 2px;
+        margin-right: 2px
+    }
+
+    .carousel_content p{
+        font-size: 12px;
+        color: #383838;
+        margin-left: 2px;
+        margin-right: 2px
+    }
+
+    .main_contant h3::after{
+        width: 40%; 
+        top: 17px;
+      }
+      
+      .main_contant h3::before{
+        width: 40%; 
+        top: 17px;
+        
+        }
+
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 768px){
+    .carousel-control-next, .carousel-control-prev {
+        bottom: 50%;
+    }
+
+    .card{
+        margin-left: 5px;
+    }
+
+    .card p{
+        width: 150%;
+    }
+
+    .card-img-top {
+       margin-left: 20px;
+        
+    }
+
+    .main_contant {
+        margin-top: 60px;
+    }
+
+    .middle{
+        text-align: right;
+    }
+    .title_bar .middle{
+        margin-top: 10px;
+    }
+
+    .title_bar .middle h4 {
+        width: 150px;
+        display: block;
+        font-size: 16px;
+        position: relative;
+    }
+
+
+    .title_one{
+        display: none;
+    }
+
+    .contact_area{
+        margin: 0px;
+    }
+
+    .contact_area h3 {
+        color: #fff;
+        font-size: 18px;
+        width: 150px;
+    }
+
+    .contact_area p {
+        width: 150%;
+    }
+
+    .contact_area .btn{
+        margin: 10px 5px;
+    }
+
+    .contact_area a{
+        font-size: 16px;
+    }
+    .blog{
+        margin: 0px;
+        text-align: left;
+    }
+
+    .blog .card{
+        margin: 0px;
+    }
+
+    .blog img{
+        width: 95px;
+        height: 95px;
+    }
+
+    .blog p{
+        width: 140%;
+    }
+
+    .blog .form-control{
+        width: 140%;
+        margin-right: 5px;
+    }
+
+    .right_side, .left_side{
+        text-align: center;
+    }
+
+    .copyright{
+        margin: 0;
+    }
+
+    .header_content h2{
+        font-size: 22px;
+        margin: 15px 0px 10px;
+    }
+
+    .header_content p{
+        font-size: 14px;
+       
+    }
+
+}
